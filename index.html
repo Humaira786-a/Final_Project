@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>The Kabul City</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1 style="font-size: 2em ;">Welcome to Kabul - The Heart of Afghanistan </h1>
+        <h1 class="font-effect-shadow-multiple" style="font-size: 1.5em ;">Welcome to Kabul - The Heart of Afghanistan </h1>
         <p>
             Discover the beauty, history, and culture of our amazing city.
         </p>
+       
     </header>
     <nav>
         <a href="#about">About</a>
@@ -29,13 +35,37 @@
         </p>
     </section>
     <section id="attractions" class="section">
-        <h2>Top Attractions</h2>
+        <h2>Top landMarks</h2>
         <div class="grid">
-            <div class="card"><h3>Attraction 1</h3><p>Description here.</p></div>
-            <div class="card"><h3>Attraction 2</h3><p>Description here.</p></div>
-            <div class="card"><h3>Attraction 3</h3><p>Description here.</p></div>
+            <div class="card"><h3 style="color:#ff5733; ">Babur’s Garden</h3><p>A serene and historic park built by Emperor Babur, featuring beautiful gardens and a tomb.</p></div>
+            <div class="card"><h3 style="color:#ff5733;">Darul Aman Palace</h3><p>A grand neoclassical palace symbolizing Afghanistan’s resilience and history.</p></div>
+            <div class="card"><h3 style="color:#ff5733;">Kabul Museum </h3><p>Home to an extensive collection of artifacts showcasing Afghanistan’s rich heritage.</p></div>
+            <div class="card"><h3 style="color:#ff5733;">Shah-Do Shamshira Mosque </h3><p>A stunning mosque with unique architecture, built during the reign of King Amanullah.</p></div>
+            <div class="card"><h3 style="color:#ff5733;">TV Hill </h3><p>A viewpoint offering breathtaking panoramic views of the entire city.</p></div>
+            <div class="card"><h3 style="color:#ff5733;">Kabul Museum </h3><p>Home to an extensive collection of artifacts showcasing Afghanistan’s rich heritage.</p></div>
+
         </div>
     </section>
+</section>
+<section id="attractions" class="section">
+    <h2>Top Attractions</h2>
+    <p>Kabul is filled with historical and cultural treasures. Some must-visit places include:</p>
+    <div class="grid">
+        <div class="card"><h3>Paghman Gardens</h3><p>A picturesque retreat just outside the city, perfect for a peaceful getaway.</p>
+            <img src="images/76acde97c30ae14b59e8ef29de0379fb.jpg" alt="City Image 1"></div>
+        <div class="card"><h3>Kabul Zoo</h3><p>A popular family destination featuring native and exotic wildlife.</p>
+            <img src="images/kabul-zoo1.png" alt="City Image 1"></div>
+        <div class="card"><h3>Kah Faroshi Bird Market</h3><p> A fascinating bazaar where birds of all kinds are bought and sold.</p>
+            <img src="images/kahforoshi.png" alt="City Image 1"></div>
+        <div class="card"><h3>Lake Qargha</h3><p>A beautiful reservoir ideal for picnics, boating, and relaxation.</p>
+        <img src="images/2sdtlglbzb371.jpg" alt=""></div>
+        <div class="card"><h3>Pul-e Khishti Bazaar </h3><p>A lively market where you can explore traditional Afghan crafts, spices, and textiles.</p>
+            <img src="images/pulekhishti.png" alt=""></div>
+        <div class="card"><h3>Chehelseton Garden </h3><p>Chehelseton Garden, a hidden gem in the heart of Kabul, invites visitors to experience the tranquility of its lush landscapes and rich history.</p>
+            <img src="images/chelston.jpg" alt=""></div>
+
+    </div>
+</section>
     <section id="food" class="section">
         <h2>Local Cuisine</h2>
         <p>Explore the delicious food and specialties of the city.</p>
@@ -67,7 +97,7 @@
         <p>&copy; 2025 [City Name] Tourism. All rights reserved.</p>
     </footer>
     
-    <script>
+    <script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async>
         function addComment() {
             let commentInput = document.getElementById("comment-input");
             let commentList = document.getElementById("comment-list");
@@ -83,7 +113,11 @@
             commentList.appendChild(comment);
             commentInput.value = "";
         }
+        
+   
     </script>
+
+    
    
 </body>
 </html>

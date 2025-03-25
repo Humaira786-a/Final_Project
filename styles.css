@@ -1,17 +1,31 @@
+
+.changa-one-regular {
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .changa-one-regular-italic {
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Sofia", sans-serif;
+    /*font-family: 'Poppins',;*/
     margin: 0;
     padding: 0;
     background: #f4f4f4;
 }
 
 header {
-    background: url('images/Kabul-2.jpg') center/cover no-repeat;
-    color: white;
+    background: url('images/Afghanistan-0333-scaled.jpg') center/cover no-repeat;
+    color: rgb(12, 12, 133);
     text-align: center;
     padding: 100px 20px;
-    font-size: 1em;
-    font-weight: bolder;
+    font-size: 2em;
+    font-weight: 700px;
 }
 
 nav {
@@ -78,6 +92,15 @@ nav a:hover {
 .gallery img:hover {
     transform: scale(1.1);
 }
+
+.section img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
 
 footer {
     background: #222;
