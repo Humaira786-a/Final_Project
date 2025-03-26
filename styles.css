@@ -23,8 +23,8 @@ header {
     background: url('images/Afghanistan-0333-scaled.jpg') center/cover no-repeat;
     color: rgb(12, 12, 133);
     text-align: center;
-    padding: 100px 20px;
-    font-size: 2em;
+    padding: 50px 20px 300px;
+    font-size: 2.5em;
     font-weight: 700px;
 }
 
@@ -42,7 +42,8 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 12px 25px;
-    font-size: 1.1em;
+    padding-left: 70px;
+    font-size: 1.7em;
     transition: 0.3s;
 }
 
@@ -62,6 +63,18 @@ nav a:hover {
 
 
 .grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.grid1 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.grid2 {
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -99,6 +112,20 @@ nav a:hover {
     border-radius: 10px;
     transition: 0.3s;
 
+}
+.button-class {
+    background-color: #ff5733;
+
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 
